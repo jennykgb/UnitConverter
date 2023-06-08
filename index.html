@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <input type="number" id="num">
+                <div>
+                    <button id="convert-btn">Convert</button>
+                </div>
+            </div>
+            <div class="conversion">
+                <div class="conv-container">
+                    <h3>Length (Meters/Feet)</h3>
+                    <p><span id="initial1" class="initial">-</span> meters = <span id="feet">-</span> feet | <span id="initial2" class="initial">-</span> feet = <span id="meters">-</span> meters</p>
+                </div>
+                <div class="conv-container">
+                    <h3>Volume (Liters/Gallons)</h3>
+                    <p><span id="initial3" class="initial">-</span> liters = <span id="gallons">-</span> gallons | <span id="initial4" class="initial">-</span> gallons = <span id="liters">-</span> liters</p>
+                </div>
+                <div class="conv-container">
+                    <h3>Mass (Kilograms/Pounds)</h3>
+                    <p><span id="initial5" class="initial">-</span> kilos = <span id="pounds">-</span> pounds | <span id="initial6" class="initial">-</span> pounds = <span id="kilos">-</span> kilos</p>
+                </div>
+            </div>
+
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
