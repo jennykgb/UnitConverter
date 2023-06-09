@@ -20,11 +20,11 @@ const kilos = document.getElementById("kilos");
 
 
 function mtof(num){
-    return num/mf;
+    return num*mf;
     
 }
 function ftom(num){
-    return num*mf;
+    return num/mf;
 }
 function ltog(num){
     return num*lg;
